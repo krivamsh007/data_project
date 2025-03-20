@@ -1,7 +1,3 @@
-Below is a detailed GitHub README draft that sets the stage for a 30‑day hands‑on learning project for new data engineers. It outlines the project’s vision, technologies, environments, data model, AI use cases, reporting requirements, and the roadmap. You can use this README as the foundation for your Git project.
-
----
-
 # Real-Time Data Engineering Learning Platform
 
 Welcome to the **Real-Time Data Engineering Learning Platform** – an open‑source, end‑to‑end project designed to immerse new data engineers into the world of modern data pipelines, cloud storage, advanced analytics, and automation. This project leverages **Amazon S3** (for Medallion Architecture storage) along with a suite of open‑source tools, ensuring that you learn industry best practices without incurring high costs.
@@ -104,8 +100,6 @@ This project is structured over **30 days** to gradually build a robust data pla
 - **Fact_Customer_Behavior:**  
   - Metrics: Churn rate, cross‑sell opportunities, customer segmentation metrics
 
-Test data is generated using Python scripts (with Faker) and stored as CSV files under `data/raw`. Scripts are provided for each table to ensure consistency and reproducibility.
-
 ---
 
 ## 🤖 AI Use Cases & Reporting Requirements
@@ -128,8 +122,6 @@ Test data is generated using Python scripts (with Faker) and stored as CSV files
 8. **Demand Forecasting Accuracy:** Comparison of forecasted vs. actual demand.
 9. **Cross-Selling Dashboard:** Metrics to identify opportunities based on customer purchase history.
 10. **Data Quality & Lineage:** Reports on data quality metrics and data lineage for audit trails.
-
-Complex SQL queries are designed to simulate real-time operational dashboards, joining multiple tables (dimensions, facts, and bridges) and incorporating advanced analytics functions.
 
 ---
 
